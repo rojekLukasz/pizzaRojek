@@ -3,3 +3,114 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+body {
+	height: 100%;
+	margin: 0;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.desktopView {
+	display: none;
+}
+
+#mainsection{
+min-height: 100vh;
+margin-bottom: -75px;
+}
+/*mobile layout*/
+.mobileview{
+
+}
+header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 75px;
+	background-color: black;
+}
+header .mobileview img {
+	width: 90vw;
+	height: 60px;
+}
+
+.banner {
+	background-image: url(../images/img_0.jpg);
+	background-size: cover;
+	height: 85vw;
+	width: 100vw;
+}
+
+main .mobileview ul li {
+	height: 5vw;
+	width: 100vw;
+	line-height: 5vh;
+	vertical-align: middle;
+	text-align: center;
+	background-color: red;
+
+}
+
+main .mobileview ul li a {
+	color: white;
+	text-decoration: none;
+	font-size: large;
+	font-weight: bold;
+}
+main .mobileview .banner-text{
+height: 40vh;
+width: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+color: antiquewhite;
+text-shadow: 0.1em 0.1em 0 hsl(200 50% 30%);
+}
+
+main .mobileview .banner-text h1 {
+	font-size: 3.5rem;
+	margin-bottom: 5vh;
+
+}
+
+main .mobileview .banner-text p {
+	text-align: center;
+	font-size: 2.5rem;
+	text-transform: capitalize;
+	
+}
+
+footer{
+	display: flex;
+	justify-content: space-between;
+	width: 100vw;
+	height: 75px;
+	background-color: black;
+}
+
+#footerright {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 100vw;
+	height: 75px;
+}
+
+#footerright i {
+	color: white;
+	font-size: 40px;
+	cursor: pointer;
+}
+
+#footerright i:hover {
+	color: red;
+
+}
+
+
+@media screen and(min-width: 400px){
+
+}
